@@ -1,0 +1,25 @@
+{
+  "model": "qwen3.5:2b",
+  "message": null,
+  "vary": true,
+  "vary_pool": [
+    "Continue.",
+    "Go on.",
+    "Next.",
+    "Keep going.",
+    "And then?",
+    "Ok.",
+    "More."
+  ],
+  "seed": 9,
+  "temperature": 1.0,
+  "ctx": 65536,
+  "max_turns": 400,
+  "think": false,
+  "interval": 0,
+  "jsonl": "run_20261109_045902.jsonl",
+  "start_time": "2026-11-09T04:59:02+02:00",
+  "turns": 60,
+  "stop_reason": "context_limit",
+  "end_time": "2026-11-09T05:13:15+02:00"
+}
