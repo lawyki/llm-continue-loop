@@ -1,0 +1,16 @@
+{
+  "model": "qwen3.5:2b",
+  "message": "Ok.",
+  "vary": false,
+  "seed": 7,
+  "temperature": 1.0,
+  "ctx": 65536,
+  "max_turns": 400,
+  "think": false,
+  "interval": 0,
+  "jsonl": "run_20261109_042325.jsonl",
+  "start_time": "2026-11-09T04:23:25+02:00",
+  "turns": 292,
+  "stop_reason": "context_limit",
+  "end_time": "2026-11-09T04:36:44+02:00"
+}
