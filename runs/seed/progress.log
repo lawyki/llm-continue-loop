@@ -1,0 +1,282 @@
+2026-11-09 00:15:48 JOB START pid=24921 root=~/Downloads/seed_runs turns=400 cooldown=5 min deadline=2026-11-09 08:00
+2026-11-09 00:15:48 15 runs to do; projected finish 06:45
+2026-11-09 00:15:48 START 9b/continue_seed1  model=qwen3.5:latest seed=1 message='Continue.'
+2026-11-09 00:15:53   9b/continue_seed1 turn 1, ctx 14 (0%), 0.1 min
+2026-11-09 00:16:56   9b/continue_seed1 turn 10, ctx 2595 (4%), 1.1 min
+2026-11-09 00:18:57   9b/continue_seed1 turn 20, ctx 7924 (12%), 3.1 min
+2026-11-09 00:21:23   9b/continue_seed1 turn 30, ctx 14162 (22%), 5.6 min
+2026-11-09 00:24:08   9b/continue_seed1 turn 40, ctx 21185 (32%), 8.3 min
+2026-11-09 00:26:31   9b/continue_seed1 turn 50, ctx 26837 (41%), 10.7 min
+2026-11-09 00:28:25   9b/continue_seed1 turn 60, ctx 31552 (48%), 12.6 min
+2026-11-09 00:29:32   9b/continue_seed1 turn 70, ctx 34075 (52%), 13.7 min
+2026-11-09 00:30:38   9b/continue_seed1 turn 80, ctx 36620 (56%), 14.8 min
+2026-11-09 00:31:49   9b/continue_seed1 turn 90, ctx 39321 (60%), 16.0 min
+2026-11-09 00:33:02   9b/continue_seed1 turn 100, ctx 42058 (64%), 17.2 min
+2026-11-09 00:34:15   9b/continue_seed1 turn 110, ctx 44808 (68%), 18.5 min
+2026-11-09 00:35:25   9b/continue_seed1 turn 120, ctx 47431 (72%), 19.6 min
+2026-11-09 00:36:28   9b/continue_seed1 turn 130, ctx 49969 (76%), 20.7 min
+2026-11-09 00:37:36   9b/continue_seed1 turn 140, ctx 52765 (81%), 21.8 min
+2026-11-09 00:38:45   9b/continue_seed1 turn 150, ctx 55494 (85%), 22.9 min
+2026-11-09 00:40:03   9b/continue_seed1 turn 160, ctx 58605 (89%), 24.2 min
+2026-11-09 00:40:19 FINISH 9b/continue_seed1  162 turns, stop=context_limit, 24.5 min
+2026-11-09 00:40:19 1/15 done; projected finish 06:03
+2026-11-09 00:40:19 cooldown 5.0 min
+2026-11-09 00:45:19 START 9b/continue_seed2  model=qwen3.5:latest seed=2 message='Continue.'
+2026-11-09 00:45:23   9b/continue_seed2 turn 1, ctx 14 (0%), 0.1 min
+2026-11-09 00:46:31   9b/continue_seed2 turn 10, ctx 2722 (4%), 1.2 min
+2026-11-09 00:48:57   9b/continue_seed2 turn 20, ctx 9160 (14%), 3.6 min
+2026-11-09 00:51:53   9b/continue_seed2 turn 30, ctx 16629 (25%), 6.6 min
+2026-11-09 00:55:12   9b/continue_seed2 turn 40, ctx 24577 (38%), 9.9 min
+2026-11-09 00:57:34   9b/continue_seed2 turn 50, ctx 30429 (46%), 12.3 min
+2026-11-09 00:59:53   9b/continue_seed2 turn 60, ctx 35855 (55%), 14.6 min
+2026-11-09 01:02:15   9b/continue_seed2 turn 70, ctx 40744 (62%), 16.9 min
+2026-11-09 01:03:38   9b/continue_seed2 turn 80, ctx 44041 (67%), 18.3 min
+2026-11-09 01:04:06   9b/continue_seed2 turn 90, ctx 45072 (69%), 18.8 min
+2026-11-09 01:04:32   9b/continue_seed2 turn 100, ctx 46082 (70%), 19.2 min
+2026-11-09 01:04:58   9b/continue_seed2 turn 110, ctx 47020 (72%), 19.7 min
+2026-11-09 01:05:20   9b/continue_seed2 turn 120, ctx 47963 (73%), 20.0 min
+2026-11-09 01:05:41   9b/continue_seed2 turn 130, ctx 48893 (75%), 20.4 min
+2026-11-09 01:06:03   9b/continue_seed2 turn 140, ctx 49823 (76%), 20.7 min
+2026-11-09 01:06:25   9b/continue_seed2 turn 150, ctx 50753 (77%), 21.1 min
+2026-11-09 01:06:47   9b/continue_seed2 turn 160, ctx 51683 (79%), 21.5 min
+2026-11-09 01:07:10   9b/continue_seed2 turn 170, ctx 52613 (80%), 21.8 min
+2026-11-09 01:07:32   9b/continue_seed2 turn 180, ctx 53543 (82%), 22.2 min
+2026-11-09 01:07:55   9b/continue_seed2 turn 190, ctx 54473 (83%), 22.6 min
+2026-11-09 01:08:18   9b/continue_seed2 turn 200, ctx 55403 (85%), 23.0 min
+2026-11-09 01:08:41   9b/continue_seed2 turn 210, ctx 56333 (86%), 23.4 min
+2026-11-09 01:09:04   9b/continue_seed2 turn 220, ctx 57263 (87%), 23.8 min
+2026-11-09 01:09:27   9b/continue_seed2 turn 230, ctx 58193 (89%), 24.1 min
+2026-11-09 01:09:49 FINISH 9b/continue_seed2  239 turns, stop=context_limit, 24.5 min
+2026-11-09 01:09:49 2/15 done; projected finish 06:03
+2026-11-09 01:09:49 cooldown 5.0 min
+2026-11-09 01:09:50 switching to 4-min cooldown: restarting runner (pid 24921) between runs
+2026-11-09 01:09:50 runner got signal 15; stopping current run
+2026-11-09 01:09:51 JOB START pid=29540 root=~/Downloads/seed_runs turns=400 cooldown=4 min deadline=2026-11-09 08:00
+2026-11-09 01:09:51 skipping 2 finished: 9b/continue_seed1, 9b/continue_seed2
+2026-11-09 01:09:51 13 runs to do; projected finish 06:13
+2026-11-09 01:09:51 cooldown 4.0 min (rest of 4.0 min after last run ended 01:09:49)
+2026-11-09 01:13:49 START 9b/continue_seed3  model=qwen3.5:latest seed=3 message='Continue.'
+2026-11-09 01:13:53   9b/continue_seed3 turn 1, ctx 14 (0%), 0.1 min
+2026-11-09 01:15:11   9b/continue_seed3 turn 10, ctx 2814 (4%), 1.4 min
+2026-11-09 01:18:57   9b/continue_seed3 turn 20, ctx 12406 (19%), 5.1 min
+2026-11-09 01:23:54   9b/continue_seed3 turn 30, ctx 23625 (36%), 10.1 min
+2026-11-09 01:28:36   9b/continue_seed3 turn 40, ctx 34952 (53%), 14.8 min
+2026-11-09 01:32:12   9b/continue_seed3 turn 50, ctx 42648 (65%), 18.4 min
+2026-11-09 01:35:19   9b/continue_seed3 turn 60, ctx 49211 (75%), 21.5 min
+2026-11-09 01:39:04   9b/continue_seed3 turn 70, ctx 56455 (86%), 25.3 min
+2026-11-09 01:40:29 FINISH 9b/continue_seed3  73 turns, stop=context_limit, 26.7 min
+2026-11-09 01:40:29 3/15 done; projected finish 05:57
+2026-11-09 01:40:29 cooldown 4.0 min
+2026-11-09 01:44:29 START 9b/continue_seed4  model=qwen3.5:latest seed=4 message='Continue.'
+2026-11-09 01:44:32   9b/continue_seed4 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 01:47:15   9b/continue_seed4 turn 10, ctx 6441 (10%), 2.8 min
+2026-11-09 01:51:41   9b/continue_seed4 turn 20, ctx 17046 (26%), 7.2 min
+2026-11-09 01:55:10   9b/continue_seed4 turn 30, ctx 25587 (39%), 10.7 min
+2026-11-09 01:59:08   9b/continue_seed4 turn 40, ctx 34569 (53%), 14.6 min
+2026-11-09 02:03:22   9b/continue_seed4 turn 50, ctx 43976 (67%), 18.9 min
+2026-11-09 02:06:49   9b/continue_seed4 turn 60, ctx 50972 (78%), 22.3 min
+2026-11-09 02:11:00   9b/continue_seed4 turn 70, ctx 59504 (91%), 26.5 min
+2026-11-09 02:11:00 FINISH 9b/continue_seed4  70 turns, stop=context_limit, 26.5 min
+2026-11-09 02:11:00 4/15 done; projected finish 05:57
+2026-11-09 02:11:00 cooldown 4.0 min
+2026-11-09 02:15:00 START 9b/continue_seed5  model=qwen3.5:latest seed=5 message='Continue.'
+2026-11-09 02:15:02   9b/continue_seed5 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 02:15:27   9b/continue_seed5 turn 10, ctx 1242 (2%), 0.5 min
+2026-11-09 02:15:57   9b/continue_seed5 turn 20, ctx 2695 (4%), 1.0 min
+2026-11-09 02:16:27   9b/continue_seed5 turn 30, ctx 4225 (6%), 1.5 min
+2026-11-09 02:17:00   9b/continue_seed5 turn 40, ctx 5799 (9%), 2.0 min
+2026-11-09 02:17:33   9b/continue_seed5 turn 50, ctx 7379 (11%), 2.6 min
+2026-11-09 02:18:08   9b/continue_seed5 turn 60, ctx 9036 (14%), 3.1 min
+2026-11-09 02:18:40   9b/continue_seed5 turn 70, ctx 10706 (16%), 3.7 min
+2026-11-09 02:19:16   9b/continue_seed5 turn 80, ctx 12420 (19%), 4.3 min
+2026-11-09 02:19:51   9b/continue_seed5 turn 90, ctx 14088 (21%), 4.8 min
+2026-11-09 02:20:28   9b/continue_seed5 turn 100, ctx 15832 (24%), 5.5 min
+2026-11-09 02:21:06   9b/continue_seed5 turn 110, ctx 17624 (27%), 6.1 min
+2026-11-09 02:21:46   9b/continue_seed5 turn 120, ctx 19447 (30%), 6.8 min
+2026-11-09 02:22:31   9b/continue_seed5 turn 130, ctx 21551 (33%), 7.5 min
+2026-11-09 02:23:17   9b/continue_seed5 turn 140, ctx 23687 (36%), 8.3 min
+2026-11-09 02:24:04   9b/continue_seed5 turn 150, ctx 25823 (39%), 9.1 min
+2026-11-09 02:24:52   9b/continue_seed5 turn 160, ctx 27966 (43%), 9.9 min
+2026-11-09 02:25:41   9b/continue_seed5 turn 170, ctx 30101 (46%), 10.7 min
+2026-11-09 02:26:29   9b/continue_seed5 turn 180, ctx 32173 (49%), 11.5 min
+2026-11-09 02:27:16   9b/continue_seed5 turn 190, ctx 34270 (52%), 12.3 min
+2026-11-09 02:28:01   9b/continue_seed5 turn 200, ctx 36384 (56%), 13.0 min
+2026-11-09 02:28:48   9b/continue_seed5 turn 210, ctx 38509 (59%), 13.8 min
+2026-11-09 02:29:35   9b/continue_seed5 turn 220, ctx 40630 (62%), 14.6 min
+2026-11-09 02:30:23   9b/continue_seed5 turn 230, ctx 42737 (65%), 15.4 min
+2026-11-09 02:31:16   9b/continue_seed5 turn 240, ctx 44838 (68%), 16.3 min
+2026-11-09 02:32:07   9b/continue_seed5 turn 250, ctx 46945 (72%), 17.1 min
+2026-11-09 02:32:59   9b/continue_seed5 turn 260, ctx 48989 (75%), 18.0 min
+2026-11-09 02:33:49   9b/continue_seed5 turn 270, ctx 51041 (78%), 18.8 min
+2026-11-09 02:34:40   9b/continue_seed5 turn 280, ctx 53073 (81%), 19.7 min
+2026-11-09 02:35:31   9b/continue_seed5 turn 290, ctx 55130 (84%), 20.5 min
+2026-11-09 02:36:23   9b/continue_seed5 turn 300, ctx 57184 (87%), 21.4 min
+2026-11-09 02:37:10 FINISH 9b/continue_seed5  309 turns, stop=context_limit, 22.2 min
+2026-11-09 02:37:10 5/15 done; projected finish 05:53
+2026-11-09 02:37:10 cooldown 4.0 min
+2026-11-09 02:41:11 unloaded qwen3.5:latest
+2026-11-09 02:41:11 START 2b/continue_seed1  model=qwen3.5:2b seed=1 message='Continue.'
+2026-11-09 02:41:13   2b/continue_seed1 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 02:42:24   2b/continue_seed1 turn 10, ctx 5193 (8%), 1.2 min
+2026-11-09 02:44:59   2b/continue_seed1 turn 20, ctx 17104 (26%), 3.8 min
+2026-11-09 02:47:23   2b/continue_seed1 turn 30, ctx 28080 (43%), 6.2 min
+2026-11-09 02:50:22   2b/continue_seed1 turn 40, ctx 40640 (62%), 9.2 min
+2026-11-09 02:54:22   2b/continue_seed1 turn 50, ctx 56223 (86%), 13.2 min
+2026-11-09 02:55:10 FINISH 2b/continue_seed1  52 turns, stop=context_limit, 14.0 min
+2026-11-09 02:55:10 6/15 done; projected finish 05:33
+2026-11-09 02:55:10 cooldown 4.0 min
+2026-11-09 02:59:10 START 2b/continue_seed2  model=qwen3.5:2b seed=2 message='Continue.'
+2026-11-09 02:59:11   2b/continue_seed2 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 03:00:04   2b/continue_seed2 turn 10, ctx 3707 (6%), 0.9 min
+2026-11-09 03:01:36   2b/continue_seed2 turn 20, ctx 11166 (17%), 2.4 min
+2026-11-09 03:03:23   2b/continue_seed2 turn 30, ctx 19766 (30%), 4.2 min
+2026-11-09 03:05:04   2b/continue_seed2 turn 40, ctx 27158 (41%), 5.9 min
+2026-11-09 03:06:57   2b/continue_seed2 turn 50, ctx 35349 (54%), 7.8 min
+2026-11-09 03:08:51   2b/continue_seed2 turn 60, ctx 43196 (66%), 9.7 min
+2026-11-09 03:10:35   2b/continue_seed2 turn 70, ctx 50171 (77%), 11.4 min
+2026-11-09 03:12:14   2b/continue_seed2 turn 80, ctx 56484 (86%), 13.1 min
+2026-11-09 03:13:02 FINISH 2b/continue_seed2  84 turns, stop=context_limit, 13.9 min
+2026-11-09 03:13:02 7/15 done; projected finish 05:32
+2026-11-09 03:13:02 cooldown 4.0 min
+2026-11-09 03:17:02 START 2b/continue_seed3  model=qwen3.5:2b seed=3 message='Continue.'
+2026-11-09 03:17:04   2b/continue_seed3 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 03:17:59   2b/continue_seed3 turn 10, ctx 3753 (6%), 0.9 min
+2026-11-09 03:19:36   2b/continue_seed3 turn 20, ctx 11718 (18%), 2.6 min
+2026-11-09 03:21:47   2b/continue_seed3 turn 30, ctx 22037 (34%), 4.7 min
+2026-11-09 03:23:54   2b/continue_seed3 turn 40, ctx 31107 (47%), 6.9 min
+2026-11-09 03:26:09   2b/continue_seed3 turn 50, ctx 40574 (62%), 9.1 min
+2026-11-09 03:28:11   2b/continue_seed3 turn 60, ctx 48878 (75%), 11.1 min
+2026-11-09 03:30:13   2b/continue_seed3 turn 70, ctx 56828 (87%), 13.2 min
+2026-11-09 03:30:53 FINISH 2b/continue_seed3  74 turns, stop=context_limit, 13.8 min
+2026-11-09 03:30:53 8/15 done; projected finish 05:32
+2026-11-09 03:30:53 cooldown 4.0 min
+2026-11-09 03:34:53 START 2b/continue_seed4  model=qwen3.5:2b seed=4 message='Continue.'
+2026-11-09 03:34:54   2b/continue_seed4 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 03:36:20   2b/continue_seed4 turn 10, ctx 6514 (10%), 1.4 min
+2026-11-09 03:38:58   2b/continue_seed4 turn 20, ctx 18276 (28%), 4.1 min
+2026-11-09 03:42:18   2b/continue_seed4 turn 30, ctx 33076 (50%), 7.4 min
+2026-11-09 03:45:01   2b/continue_seed4 turn 40, ctx 44411 (68%), 10.1 min
+2026-11-09 03:47:48   2b/continue_seed4 turn 50, ctx 55241 (84%), 12.9 min
+2026-11-09 03:48:52 FINISH 2b/continue_seed4  54 turns, stop=context_limit, 14.0 min
+2026-11-09 03:48:52 9/15 done; projected finish 05:32
+2026-11-09 03:48:52 cooldown 4.0 min
+2026-11-09 03:52:52 START 2b/continue_seed5  model=qwen3.5:2b seed=5 message='Continue.'
+2026-11-09 03:52:53   2b/continue_seed5 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 03:55:49   2b/continue_seed5 turn 10, ctx 13379 (20%), 3.0 min
+2026-11-09 03:58:23   2b/continue_seed5 turn 20, ctx 24832 (38%), 5.5 min
+2026-11-09 04:01:29   2b/continue_seed5 turn 30, ctx 38153 (58%), 8.6 min
+2026-11-09 04:05:39   2b/continue_seed5 turn 40, ctx 53765 (82%), 12.8 min
+2026-11-09 04:07:01 FINISH 2b/continue_seed5  44 turns, stop=context_limit, 14.1 min
+2026-11-09 04:07:01 10/15 done; projected finish 05:32
+2026-11-09 04:07:01 cooldown 4.0 min
+2026-11-09 04:11:01 START 2b/next_seed6  model=qwen3.5:2b seed=6 message='Next.'
+2026-11-09 04:11:01   2b/next_seed6 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 04:11:20   2b/next_seed6 turn 10, ctx 1504 (2%), 0.3 min
+2026-11-09 04:11:38   2b/next_seed6 turn 20, ctx 3018 (5%), 0.6 min
+2026-11-09 04:11:54   2b/next_seed6 turn 30, ctx 4372 (7%), 0.9 min
+2026-11-09 04:12:21   2b/next_seed6 turn 40, ctx 6531 (10%), 1.3 min
+2026-11-09 04:12:38   2b/next_seed6 turn 50, ctx 7973 (12%), 1.6 min
+2026-11-09 04:12:52   2b/next_seed6 turn 60, ctx 9307 (14%), 1.9 min
+2026-11-09 04:13:06   2b/next_seed6 turn 70, ctx 10490 (16%), 2.1 min
+2026-11-09 04:13:21   2b/next_seed6 turn 80, ctx 11712 (18%), 2.3 min
+2026-11-09 04:13:33   2b/next_seed6 turn 90, ctx 12653 (19%), 2.5 min
+2026-11-09 04:13:41   2b/next_seed6 turn 100, ctx 13468 (21%), 2.7 min
+2026-11-09 04:13:53   2b/next_seed6 turn 110, ctx 14400 (22%), 2.9 min
+2026-11-09 04:14:05   2b/next_seed6 turn 120, ctx 15409 (24%), 3.1 min
+2026-11-09 04:14:15   2b/next_seed6 turn 130, ctx 16252 (25%), 3.2 min
+2026-11-09 04:14:25   2b/next_seed6 turn 140, ctx 17087 (26%), 3.4 min
+2026-11-09 04:14:36   2b/next_seed6 turn 150, ctx 17997 (27%), 3.6 min
+2026-11-09 04:14:47   2b/next_seed6 turn 160, ctx 18838 (29%), 3.8 min
+2026-11-09 04:14:57   2b/next_seed6 turn 170, ctx 19692 (30%), 3.9 min
+2026-11-09 04:15:08   2b/next_seed6 turn 180, ctx 20550 (31%), 4.1 min
+2026-11-09 04:15:18   2b/next_seed6 turn 190, ctx 21398 (33%), 4.3 min
+2026-11-09 04:15:29   2b/next_seed6 turn 200, ctx 22286 (34%), 4.5 min
+2026-11-09 04:15:40   2b/next_seed6 turn 210, ctx 23152 (35%), 4.7 min
+2026-11-09 04:15:50   2b/next_seed6 turn 220, ctx 23950 (37%), 4.8 min
+2026-11-09 04:16:01   2b/next_seed6 turn 230, ctx 24810 (38%), 5.0 min
+2026-11-09 04:16:13   2b/next_seed6 turn 240, ctx 25779 (39%), 5.2 min
+2026-11-09 04:16:25   2b/next_seed6 turn 250, ctx 26756 (41%), 5.4 min
+2026-11-09 04:16:36   2b/next_seed6 turn 260, ctx 27590 (42%), 5.6 min
+2026-11-09 04:16:48   2b/next_seed6 turn 270, ctx 28540 (44%), 5.8 min
+2026-11-09 04:17:00   2b/next_seed6 turn 280, ctx 29446 (45%), 6.0 min
+2026-11-09 04:17:10   2b/next_seed6 turn 290, ctx 30239 (46%), 6.2 min
+2026-11-09 04:17:23   2b/next_seed6 turn 300, ctx 31207 (48%), 6.4 min
+2026-11-09 04:17:35   2b/next_seed6 turn 310, ctx 32148 (49%), 6.6 min
+2026-11-09 04:17:46   2b/next_seed6 turn 320, ctx 33000 (50%), 6.8 min
+2026-11-09 04:17:58   2b/next_seed6 turn 330, ctx 33887 (52%), 7.0 min
+2026-11-09 04:18:10   2b/next_seed6 turn 340, ctx 34762 (53%), 7.1 min
+2026-11-09 04:18:23   2b/next_seed6 turn 350, ctx 35741 (55%), 7.4 min
+2026-11-09 04:18:35   2b/next_seed6 turn 360, ctx 36607 (56%), 7.6 min
+2026-11-09 04:18:47   2b/next_seed6 turn 370, ctx 37514 (57%), 7.8 min
+2026-11-09 04:18:59   2b/next_seed6 turn 380, ctx 38432 (59%), 8.0 min
+2026-11-09 04:19:11   2b/next_seed6 turn 390, ctx 39307 (60%), 8.2 min
+2026-11-09 04:19:25   2b/next_seed6 turn 400, ctx 40262 (61%), 8.4 min
+2026-11-09 04:19:25 FINISH 2b/next_seed6  400 turns, stop=max_turns, 8.4 min
+2026-11-09 04:19:25 11/15 done; projected finish 05:23
+2026-11-09 04:19:25 cooldown 4.0 min
+2026-11-09 04:23:25 START 2b/ok_seed7  model=qwen3.5:2b seed=7 message='Ok.'
+2026-11-09 04:23:26   2b/ok_seed7 turn 1, ctx 14 (0%), 0.0 min
+2026-11-09 04:23:40   2b/ok_seed7 turn 10, ctx 1147 (2%), 0.2 min
+2026-11-09 04:24:02   2b/ok_seed7 turn 20, ctx 3033 (5%), 0.6 min
+2026-11-09 04:24:26   2b/ok_seed7 turn 30, ctx 5111 (8%), 1.0 min
+2026-11-09 04:24:49   2b/ok_seed7 turn 40, ctx 6967 (11%), 1.4 min
+2026-11-09 04:25:12   2b/ok_seed7 turn 50, ctx 8915 (14%), 1.8 min
+2026-11-09 04:25:38   2b/ok_seed7 turn 60, ctx 11038 (17%), 2.2 min
+2026-11-09 04:26:08   2b/ok_seed7 turn 70, ctx 13402 (20%), 2.7 min
+2026-11-09 04:26:32   2b/ok_seed7 turn 80, ctx 15423 (24%), 3.1 min
+2026-11-09 04:26:58   2b/ok_seed7 turn 90, ctx 17502 (27%), 3.6 min
+2026-11-09 04:27:23   2b/ok_seed7 turn 100, ctx 19342 (30%), 4.0 min
+2026-11-09 04:27:56   2b/ok_seed7 turn 110, ctx 21917 (33%), 4.5 min
+2026-11-09 04:28:26   2b/ok_seed7 turn 120, ctx 24094 (37%), 5.0 min
+2026-11-09 04:28:53   2b/ok_seed7 turn 130, ctx 26321 (40%), 5.5 min
+2026-11-09 04:29:20   2b/ok_seed7 turn 140, ctx 28358 (43%), 5.9 min
+2026-11-09 04:29:46   2b/ok_seed7 turn 150, ctx 30210 (46%), 6.3 min
+2026-11-09 04:30:16   2b/ok_seed7 turn 160, ctx 32355 (49%), 6.8 min
+2026-11-09 04:30:47   2b/ok_seed7 turn 170, ctx 34671 (53%), 7.4 min
+2026-11-09 04:31:17   2b/ok_seed7 turn 180, ctx 36846 (56%), 7.9 min
+2026-11-09 04:31:49   2b/ok_seed7 turn 190, ctx 39009 (60%), 8.4 min
+2026-11-09 04:32:20   2b/ok_seed7 turn 200, ctx 41324 (63%), 8.9 min
+2026-11-09 04:32:53   2b/ok_seed7 turn 210, ctx 43633 (67%), 9.5 min
+2026-11-09 04:33:25   2b/ok_seed7 turn 220, ctx 45719 (70%), 10.0 min
+2026-11-09 04:33:59   2b/ok_seed7 turn 230, ctx 48124 (73%), 10.6 min
+2026-11-09 04:34:26   2b/ok_seed7 turn 240, ctx 49922 (76%), 11.0 min
+2026-11-09 04:34:53   2b/ok_seed7 turn 250, ctx 51735 (79%), 11.5 min
+2026-11-09 04:35:23   2b/ok_seed7 turn 260, ctx 53732 (82%), 12.0 min
+2026-11-09 04:35:49   2b/ok_seed7 turn 270, ctx 55487 (85%), 12.4 min
+2026-11-09 04:36:14   2b/ok_seed7 turn 280, ctx 57108 (87%), 12.8 min
+2026-11-09 04:36:39   2b/ok_seed7 turn 290, ctx 58683 (90%), 13.2 min
+2026-11-09 04:36:44 FINISH 2b/ok_seed7  292 turns, stop=context_limit, 13.3 min
+2026-11-09 04:36:44 12/15 done; projected finish 05:23
+2026-11-09 04:36:44 cooldown 4.0 min
+2026-11-09 04:40:44 START 2b/go_on_seed8  model=qwen3.5:2b seed=8 message='Go on.'
+2026-11-09 04:40:45   2b/go_on_seed8 turn 1, ctx 15 (0%), 0.0 min
+2026-11-09 04:42:13   2b/go_on_seed8 turn 10, ctx 6651 (10%), 1.5 min
+2026-11-09 04:45:12   2b/go_on_seed8 turn 20, ctx 19663 (30%), 4.5 min
+2026-11-09 04:48:15   2b/go_on_seed8 turn 30, ctx 33288 (51%), 7.5 min
+2026-11-09 04:52:08   2b/go_on_seed8 turn 40, ctx 49028 (75%), 11.4 min
+2026-11-09 04:55:02 FINISH 2b/go_on_seed8  47 turns, stop=context_limit, 14.3 min
+2026-11-09 04:55:02 13/15 done; projected finish 05:25
+2026-11-09 04:55:02 cooldown 4.0 min
+2026-11-09 04:59:02 START 2b/vary_seed9  model=qwen3.5:2b seed=9 message=(vary)
+2026-11-09 04:59:03   2b/vary_seed9 turn 1, ctx 15 (0%), 0.0 min
+2026-11-09 04:59:50   2b/vary_seed9 turn 10, ctx 3352 (5%), 0.8 min
+2026-11-09 05:02:19   2b/vary_seed9 turn 20, ctx 14903 (23%), 3.3 min
+2026-11-09 05:05:07   2b/vary_seed9 turn 30, ctx 27656 (42%), 6.1 min
+2026-11-09 05:07:34   2b/vary_seed9 turn 40, ctx 37975 (58%), 8.5 min
+2026-11-09 05:10:18   2b/vary_seed9 turn 50, ctx 48886 (75%), 11.3 min
+2026-11-09 05:13:15   2b/vary_seed9 turn 60, ctx 60069 (92%), 14.2 min
+2026-11-09 05:13:15 FINISH 2b/vary_seed9  60 turns, stop=context_limit, 14.2 min
+2026-11-09 05:13:15 14/15 done; projected finish 05:26
+2026-11-09 05:13:15 cooldown 4.0 min
+2026-11-09 05:17:15 START 2b/vary_seed10  model=qwen3.5:2b seed=10 message=(vary)
+2026-11-09 05:17:17   2b/vary_seed10 turn 1, ctx 15 (0%), 0.0 min
+2026-11-09 05:18:03   2b/vary_seed10 turn 10, ctx 3337 (5%), 0.8 min
+2026-11-09 05:19:26   2b/vary_seed10 turn 20, ctx 10098 (15%), 2.2 min
+2026-11-09 05:20:47   2b/vary_seed10 turn 30, ctx 16529 (25%), 3.5 min
+2026-11-09 05:22:28   2b/vary_seed10 turn 40, ctx 24136 (37%), 5.2 min
+2026-11-09 05:24:23   2b/vary_seed10 turn 50, ctx 32195 (49%), 7.1 min
+2026-11-09 05:26:05   2b/vary_seed10 turn 60, ctx 39817 (61%), 8.8 min
+2026-11-09 05:27:42   2b/vary_seed10 turn 70, ctx 46201 (70%), 10.5 min
+2026-11-09 05:29:37   2b/vary_seed10 turn 80, ctx 53458 (82%), 12.4 min
+2026-11-09 05:31:03 FINISH 2b/vary_seed10  87 turns, stop=context_limit, 13.8 min
+2026-11-09 05:31:04 JOB END 15/15 complete
