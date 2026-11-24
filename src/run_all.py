@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Overnight runner for ~/Downloads/loop.py (15 seed runs, sequential).
+Overnight runner for loop.py (15 seed runs, sequential).
 
 - Resumable: a run whose meta.json has "end_time" is skipped. A run that stopped
   early (no end_time) is redone; its partial files are moved to _failed/ first.
@@ -11,14 +11,16 @@ Overnight runner for ~/Downloads/loop.py (15 seed runs, sequential).
   whole job, logs to progress.log. One extra attempt for failed runs at the end
   if it still fits before the deadline.
 
-Start detached:  ./start.sh          Stop:  kill $(cat runner.pid)
-Smoke test:      python3 run_all.py --smoke --root <scratch folder>
+Foreground:      python3 src/run_all.py --root runs/rerun
+Start detached:  sh src/start.sh --root runs/rerun     Stop:  kill $(cat runs/rerun/runner.pid)
+Smoke test:      python3 src/run_all.py --smoke --root <scratch folder>
+Default --root is runs/seed, where every run is already finished (all skipped).
 """
 import argparse, glob, json, os, re, shutil, signal, subprocess, sys, threading, time, urllib.request
 from datetime import datetime, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-LOOP = os.path.expanduser("~/Downloads/loop.py")
+LOOP = os.path.join(HERE, "loop.py")
 OLLAMA = shutil.which("ollama") or "/usr/local/bin/ollama"
 M9, M2 = "qwen3.5:latest", "qwen3.5:2b"
 REF_SEC = {M9: 32 * 60, M2: 16 * 60}   # reference duration per run
@@ -41,7 +43,7 @@ SMOKE_PLAN = [item(M9, "9b", "continue_seed1", 1, "Continue."),
               item(M2, "2b", "vary_seed9", 9, vary=True)]
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--root", default=HERE)
+ap.add_argument("--root", default=os.path.join(os.path.dirname(HERE), "runs", "seed"))
 ap.add_argument("--turns", type=int, default=400)
 ap.add_argument("--cooldown", type=float, default=None, help="seconds between runs (default 240)")
 ap.add_argument("--min-cooldown", type=float, default=120)
