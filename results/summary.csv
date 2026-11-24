@@ -1,0 +1,18 @@
+run,model,message,turns,stop_reason,chars_first_tenth,chars_last_tenth,entropy_first_tenth,entropy_last_tenth,distinct2_first_tenth,distinct2_last_tenth,overlap_first_tenth,overlap_last_tenth,unique_replies,verbatim_repeats,longest_identical_streak
+Pilot 1,not recorded,not logged,64,not recorded,2880,3686,7.44,7.72,0.96,0.94,0.14,0.16,64,0,1
+Pilot 2,not recorded,not logged,47,not recorded,4481,5678,8.06,8.12,0.95,0.88,0.21,0.39,47,0,1
+9B seed 1,qwen3.5:latest,Continue.,162,context_limit,1560,1341,6.96,6.8,0.97,0.96,0.13,0.81,122,40,11
+9B seed 2,qwen3.5:latest,Continue.,239,context_limit,2264,346,7.23,5.27,0.96,1.0,0.14,1.0,101,138,129
+9B seed 3,qwen3.5:latest,Continue.,73,context_limit,813,3832,6.14,7.63,0.98,0.92,0.12,0.18,73,0,1
+9B seed 4,qwen3.5:latest,Continue.,70,context_limit,2629,3092,7.29,7.64,0.97,0.96,0.16,0.15,70,0,1
+9B seed 5,qwen3.5:latest,Continue.,309,context_limit,535,773,6.17,6.61,0.99,0.98,0.36,0.88,152,157,14
+2B seed 1,qwen3.5:2b,Continue.,52,context_limit,1757,7204,6.93,8.2,0.98,0.86,0.15,0.56,51,1,1
+2B seed 2,qwen3.5:2b,Continue.,84,context_limit,1686,3451,7.01,7.56,0.98,0.91,0.16,0.31,84,0,1
+2B seed 3,qwen3.5:2b,Continue.,74,context_limit,1369,2815,6.85,7.83,0.98,0.98,0.13,0.64,72,2,2
+2B seed 4,qwen3.5:2b,Continue.,54,context_limit,2081,4658,6.84,8.06,0.97,0.93,0.15,0.24,54,0,1
+2B seed 5,qwen3.5:2b,Continue.,44,context_limit,4586,5839,7.5,8.18,0.93,0.91,0.16,0.26,44,0,1
+2B seed 6,qwen3.5:2b,Next.,400,max_turns,612,358,6.08,5.47,0.98,0.99,0.13,0.28,371,29,2
+2B seed 7,qwen3.5:2b,Ok.,292,context_limit,631,627,6.31,6.35,0.99,0.99,0.15,0.28,292,0,1
+2B seed 8,qwen3.5:2b,Go on.,47,context_limit,1188,6424,6.65,7.98,0.97,0.77,0.12,0.96,47,0,1
+2B seed 9,qwen3.5:2b,random pool,60,context_limit,930,4543,6.61,8.01,0.99,0.92,0.15,0.91,60,0,1
+2B seed 10,qwen3.5:2b,random pool,87,context_limit,1434,3691,7.0,7.63,0.97,0.9,0.15,0.4,87,0,1
