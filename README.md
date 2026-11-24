@@ -1,4 +1,4 @@
-# Continue. Continue. Continue.
+# Language models in a self-feedback loop
 
 *What a language model does when you give it nothing but its own past.*
 
